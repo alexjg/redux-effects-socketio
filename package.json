@@ -1,0 +1,22 @@
+{
+  "name": "redux-effects-socketio",
+  "version": "0.0.1",
+  "description": "A redux effects middleware for websockets",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "prepublish": "rm -rf lib && babel src --out-dir lib",
+    "postpublish": "rm -rf lib"
+  },
+  "author": "Alex Good",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.1.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.4",
+    "chai": "^3.4.1",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}
